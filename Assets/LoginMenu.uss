@@ -1,0 +1,122 @@
+.primary-button {
+    -unity-font: url('project://database/Assets/Inter-SemiBold.ttf?fileID=12800000&guid=bc48819c31e21fb4284bceb2d9bb11fb&type=3#Inter-SemiBold');
+    font-size: 16px;
+    -unity-text-align: middle-center;
+    color: rgb(255, 250, 244);
+    -unity-font-style: bold;
+    background-color: rgb(126, 21, 53);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    width: 450px;
+    height: 50px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.primary-button:hover {
+    -unity-font: url('project://database/Assets/Inter-SemiBold.ttf?fileID=12800000&guid=bc48819c31e21fb4284bceb2d9bb11fb&type=3#Inter-SemiBold');
+    font-size: 16px;
+    -unity-text-align: middle-center;
+    color: rgb(126, 21, 53);
+    -unity-font-style: bold;
+    background-color: rgb(255, 211, 51);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    transition-duration: 300ms;
+}
+
+.input-text-field {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgba(126, 126, 126, 0);
+    border-right-color: rgba(126, 126, 126, 0);
+    border-top-color: rgba(126, 126, 126, 0);
+    border-bottom-color: rgba(126, 126, 126, 0);
+}
+
+.input-text-field #unity-text-input {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 0;
+    padding-top: 16px;
+    padding-bottom: 18px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    font-size: 13px;
+    -unity-font: url('project://database/Assets/Inter-Regular.ttf?fileID=12800000&guid=7782e0fe416a7ef46bc30d0aea88509d&type=3#Inter-Regular');
+    background-color: rgb(251, 250, 248);
+    color: rgb(165, 165, 165);
+}
+
+#LoginContainer {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: rgb(251, 250, 248);
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    position: absolute;
+}
+
+.login-container-label {
+    -unity-font: url('project://database/Assets/Inter-ExtraLight.ttf?fileID=12800000&guid=ffad4136485f40d409726c9307f49338&type=3#Inter-ExtraLight');
+    font-size: 18px;
+    -unity-font-definition: initial;
+}
+
+.login-container-link {
+    -unity-font: url('project://database/Assets/Inter-Regular.ttf?fileID=12800000&guid=7782e0fe416a7ef46bc30d0aea88509d&type=3#Inter-Regular');
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-text-align: middle-right;
+    color: rgb(126, 21, 53);
+    -unity-font-style: normal;
+}

@@ -10,6 +10,7 @@ public class LoginPageBehaviour : MonoBehaviour
     
     private void Awake()
     {
+        uiManager.SetLoginBehaviour(this);
         _loginPageView = GetComponent<UIDocument>().rootVisualElement;
         
         _loginButton = _loginPageView.Q<Button>("LoginButton");

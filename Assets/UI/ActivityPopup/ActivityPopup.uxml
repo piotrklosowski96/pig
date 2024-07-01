@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="PrimaryButton" src="project://database/Assets/PrimaryButton.uxml?fileID=9197481963319205126&amp;guid=bf0461cac747c70409858850e9da1c7e&amp;type=3#PrimaryButton" />
+    <ui:VisualElement name="PopupWindow" style="flex-grow: 1; background-color: rgb(251, 250, 248); height: 250px; max-width: 680px; max-height: 250px; align-self: center; opacity: 1; display: flex; visibility: visible; overflow: visible; transform-origin: center; align-items: center; justify-content: center; flex-direction: column; position: relative;">
+        <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); padding-left: 30px; padding-right: 30px; padding-top: 30px; padding-bottom: 30px; height: 250px; max-height: 250px; max-width: 680px; visibility: visible; opacity: 1;">
+            <ui:Label tabindex="-1" text="Twoja sesja zaraz wygaśnie!" display-tooltip-when-elided="true" name="Title" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-font: url(&apos;project://database/Assets/Inter-Regular.ttf?fileID=12800000&amp;guid=7782e0fe416a7ef46bc30d0aea88509d&amp;type=3#Inter-Regular&apos;); font-size: 18px; -unity-font-style: bold; -unity-text-align: middle-center; height: 30px; min-height: 30px; max-height: 30px;" />
+            <ui:Label tabindex="-1" text="Z powodu nieaktywności przez dłużej niż 5 minut Twoja sesja zostanie zakończona za:&#10;15 sekund(y) &#10;&#10;Aby ją przedłużyć kliknij w przycisk poniżej." display-tooltip-when-elided="true" name="Message" style="margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; font-size: 13px; -unity-font: url(&apos;project://database/Assets/Inter-Light.ttf?fileID=12800000&amp;guid=7acccdea5d09cf749a99b11b07f54db8&amp;type=3#Inter-Light&apos;); -unity-text-align: middle-center;" />
+            <ui:Instance template="PrimaryButton" name="PrimaryButton" style="width: 120px; height: 40px; align-self: center;">
+                <AttributeOverrides element-name="Button" text="Przedłuż sesję" />
+            </ui:Instance>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

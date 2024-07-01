@@ -4,6 +4,7 @@
     <ui:Template name="Account" src="project://database/Assets/Account.uxml?fileID=9197481963319205126&amp;guid=11993e62babc92b449b1c4be2c91b47e&amp;type=3#Account" />
     <ui:Template name="SavingAccount" src="project://database/Assets/SavingAccount.uxml?fileID=9197481963319205126&amp;guid=9dcc38aba093f50478db7d8565319cf3&amp;type=3#SavingAccount" />
     <ui:Template name="Expense" src="project://database/Assets/Expense.uxml?fileID=9197481963319205126&amp;guid=7414e9af7efa5af429ec8e94611555a8&amp;type=3#Expense" />
+    <ui:Template name="ActivityPopup" src="project://database/Assets/UI/ActivityPopup/ActivityPopup.uxml?fileID=9197481963319205126&amp;guid=13969d965ebd7e54193fb8b9b3952d43&amp;type=3#ActivityPopup" />
     <ui:VisualElement name="ContentContainer" style="flex-grow: 1; background-color: rgb(237, 237, 237);">
         <ui:VisualElement name="Spacer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 70px; max-height: 70px; min-height: 70px;" />
         <ui:VisualElement name="Menu" style="flex-grow: 1; background-color: rgb(251, 250, 248); height: 100px; max-height: 100px; min-height: 100px; flex-direction: row; align-items: center; -unity-text-align: middle-center; justify-content: center;">
@@ -55,5 +56,6 @@
                 <ui:Instance template="Expense" name="Expense" style="width: 100%; margin-top: 10px;" />
             </ui:VisualElement>
         </ui:VisualElement>
+        <ui:Instance template="ActivityPopup" name="ActivityPopup" style="position: absolute; width: 100%; height: 100px; max-height: 100%; min-height: 100%; min-width: 100%; max-width: 100%; align-self: center; justify-content: space-around; align-items: center; opacity: 1; visibility: visible; overflow: visible; display: flex; background-color: rgba(0, 0, 0, 0.75);" />
     </ui:VisualElement>
 </ui:UXML>

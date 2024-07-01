@@ -1,15 +1,15 @@
 {
     "UxmlGuid": "f9673db007c1fa7478775348246301a2",
-    "UxmlPath": "Assets/UI Toolkit/LoginMenu.uxml",
+    "UxmlPath": "Assets/UI/LoginPage/LoginPageView.uxml",
     "CanvasX": 0,
     "CanvasY": 0,
     "CanvasWidth": 1440,
     "CanvasHeight": 1024,
     "MatchGameView": false,
-    "ZoomScale": 0.8500000238418579,
+    "ZoomScale": 0.699999988079071,
     "PanOffset": {
-        "x": 197.71697998046876,
-        "y": 341.8753662109375
+        "x": 184.20462036132813,
+        "y": 331.30767822265627
     },
     "ColorModeBackgroundOpacity": 1.0,
     "ImageModeCanvasBackgroundOpacity": 1.0,

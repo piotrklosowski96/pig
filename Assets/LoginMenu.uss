@@ -120,3 +120,22 @@
     color: rgb(126, 21, 53);
     -unity-font-style: normal;
 }
+
+.input-text-field:focus #unity-text-input {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 0;
+    padding-top: 16px;
+    padding-bottom: 18px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    font-size: 13px;
+    -unity-font: url('project://database/Assets/Inter-Regular.ttf?fileID=12800000&guid=7782e0fe416a7ef46bc30d0aea88509d&type=3#Inter-Regular');
+    background-color: rgb(251, 250, 248);
+    color: rgb(0, 0, 0);
+}

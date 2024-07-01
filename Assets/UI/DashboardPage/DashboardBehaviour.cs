@@ -1,18 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class DashboardBehaviour : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public UIManager uiManager;
+    
+    private VisualElement _dashboardPageView;
+    private Button _logoutButton;
+    
+    private void Awake()
     {
-        
+        _dashboardPageView = GetComponent<UIDocument>().rootVisualElement;
+
+        _logoutButton = _dashboardPageView.Q<VisualElement>("LogoutButton").Q<Button>("Button");
+        _logoutButton.clicked += OnHandleLogoutButtonClick;
+
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnHandleLogoutButtonClick()
     {
-        
+        uiManager.ShowLoginView();
     }
 }

@@ -12,6 +12,12 @@ public class UIManager : MonoBehaviour
         dashboardView.rootVisualElement.visible = false;
     }
     
+    public void ShowLoginView()
+    {
+        loginView.rootVisualElement.visible = true;
+        dashboardView.rootVisualElement.visible = false;
+    }
+    
     public void ShowDashboardView()
     {
         loginView.rootVisualElement.visible = false;

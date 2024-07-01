@@ -1,0 +1,39 @@
+.secondary-button {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border-left-color: rgb(126, 21, 53);
+    border-right-color: rgb(126, 21, 53);
+    border-top-color: rgb(126, 21, 53);
+    border-bottom-color: rgb(126, 21, 53);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    font-size: 14px;
+    -unity-font: url('project://database/Assets/Inter-Regular.ttf?fileID=12800000&guid=7782e0fe416a7ef46bc30d0aea88509d&type=3#Inter-Regular');
+    color: rgb(101, 17, 42);
+    flex-grow: 1;
+}
+
+.secondary-button:hover {
+    background-color: rgb(255, 211, 51);
+    transition-duration: 300ms;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-left-color: rgb(255, 211, 51);
+    border-right-color: rgb(255, 211, 51);
+    border-top-color: rgb(255, 211, 51);
+    border-bottom-color: rgb(255, 211, 51);
+}

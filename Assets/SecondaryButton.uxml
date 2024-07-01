@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/SecondaryButton.uss?fileID=7433441132597879392&amp;guid=44a92f017cc2e9b4e9963ceaa06d76c9&amp;type=3#SecondaryButton" />
+    <ui:Button text="Wykonaj przelew" display-tooltip-when-elided="true" name="Button" class="secondary-button" />
+</ui:UXML>

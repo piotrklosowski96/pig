@@ -1,3 +1,4 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
-    <ui:Button text="Dalej" display-tooltip-when-elided="true" name="LoginButton" class="primary-button" />
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/PrimaryButton.uss?fileID=7433441132597879392&amp;guid=6304b26e641e00b4e97db2091f8eeba6&amp;type=3#PrimaryButton" />
+    <ui:Button text="Dalej" display-tooltip-when-elided="true" name="Button" class="primary-button" />
 </ui:UXML>

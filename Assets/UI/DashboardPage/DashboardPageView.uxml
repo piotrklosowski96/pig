@@ -1,7 +1,59 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="MenuButton" src="project://database/Assets/MenuButton.uxml?fileID=9197481963319205126&amp;guid=f403157520c2d4641a7e2659e570d745&amp;type=3#MenuButton" />
+    <ui:Template name="PrimaryButton" src="project://database/Assets/PrimaryButton.uxml?fileID=9197481963319205126&amp;guid=bf0461cac747c70409858850e9da1c7e&amp;type=3#PrimaryButton" />
+    <ui:Template name="Account" src="project://database/Assets/Account.uxml?fileID=9197481963319205126&amp;guid=11993e62babc92b449b1c4be2c91b47e&amp;type=3#Account" />
+    <ui:Template name="SavingAccount" src="project://database/Assets/SavingAccount.uxml?fileID=9197481963319205126&amp;guid=9dcc38aba093f50478db7d8565319cf3&amp;type=3#SavingAccount" />
+    <ui:Template name="Expense" src="project://database/Assets/Expense.uxml?fileID=9197481963319205126&amp;guid=7414e9af7efa5af429ec8e94611555a8&amp;type=3#Expense" />
     <ui:VisualElement name="ContentContainer" style="flex-grow: 1; background-color: rgb(237, 237, 237);">
-        <ui:VisualElement name="MenuContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
-            <ui:Label tabindex="-1" text="SOME CONTENT" display-tooltip-when-elided="true" />
+        <ui:VisualElement name="Spacer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 70px; max-height: 70px; min-height: 70px;" />
+        <ui:VisualElement name="Menu" style="flex-grow: 1; background-color: rgb(251, 250, 248); height: 100px; max-height: 100px; min-height: 100px; flex-direction: row; align-items: center; -unity-text-align: middle-center; justify-content: center;">
+            <ui:VisualElement name="MenuContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); max-width: 1280px; flex-direction: row; align-self: center; align-items: center;">
+                <ui:VisualElement name="Logo" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/image%203.png?fileID=2800000&amp;guid=8082769b6d318bf46b22f0aa8a5d0361&amp;type=3#image 3&apos;); width: 180px; height: 100px; max-width: 180px; min-width: 180px; max-height: 100px; min-height: 100px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+                <ui:Instance template="MenuButton" name="DashboardButton" style="-unity-font-style: bold; color: rgb(126, 21, 55);">
+                    <AttributeOverrides element-name="MenuButton" text="Pulpit" />
+                </ui:Instance>
+                <ui:Instance template="MenuButton" name="OffersButton">
+                    <AttributeOverrides element-name="MenuButton" text="Oferty ▼" />
+                </ui:Instance>
+                <ui:Instance template="MenuButton" name="ServicesButton">
+                    <AttributeOverrides element-name="MenuButton" text="Usługi ▼" />
+                </ui:Instance>
+                <ui:Instance template="MenuButton" name="InvestmentsButton">
+                    <AttributeOverrides element-name="MenuButton" text="Inwestycje ▼" />
+                </ui:Instance>
+                <ui:Instance template="MenuButton" name="KermitMobileButton">
+                    <AttributeOverrides element-name="MenuButton" text="Kermit&#10;Mobile" />
+                </ui:Instance>
+                <ui:Instance template="PrimaryButton" name="LogoutButton" style="width: 140px; height: 40px; -unity-text-align: middle-center; align-self: center; margin-right: 0; position: absolute; right: 0; margin-left: 0; margin-top: 0; margin-bottom: 0;">
+                    <AttributeOverrides element-name="LoginButton" text="Wyloguj się" />
+                    <AttributeOverrides element-name="Button" text="Wyloguj się" />
+                </ui:Instance>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="DashboardContentsContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; margin-left: 0; margin-right: 0; max-width: 1280px; margin-top: 0; margin-bottom: 0; align-self: center; overflow: hidden;">
+            <ui:VisualElement name="AccountsContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); min-width: 860px; -unity-font: url(&apos;project://database/Assets/Inter-Light.ttf?fileID=12800000&amp;guid=7acccdea5d09cf749a99b11b07f54db8&amp;type=3#Inter-Light&apos;); padding-top: 20px; padding-left: 0; padding-right: 0; width: 70%; max-width: 70%; overflow: hidden;">
+                <ui:Label tabindex="-1" text="Mój portfel" display-tooltip-when-elided="true" name="HistoryTitle" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 5px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; min-width: 100%; font-size: 26px; -unity-font: url(&apos;project://database/Assets/Inter-Light.ttf?fileID=12800000&amp;guid=7acccdea5d09cf749a99b11b07f54db8&amp;type=3#Inter-Light&apos;);" />
+                <ui:Instance template="Account" name="Account" style="margin-top: 10px; margin-bottom: 10px; padding-left: 0; padding-right: 0; margin-left: 20px; margin-right: 20px; padding-top: 0; padding-bottom: 0;">
+                    <AttributeOverrides element-name="AccountName" text="Rachunek oszczędnościowo-rozliczeniowy #1" />
+                </ui:Instance>
+                <ui:Instance template="Account" name="Account" style="margin-top: 10px; margin-bottom: 10px; padding-right: 0; padding-left: 0; padding-top: 0; padding-bottom: 0; margin-left: 20px; margin-right: 20px;">
+                    <AttributeOverrides element-name="AccountName" text="Rachunek oszczędnościowo-rozliczeniowy #2" enable-rich-text="true" />
+                </ui:Instance>
+                <ui:Instance template="SavingAccount" name="SavingAccount" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Separator" style="background-color: rgb(165, 165, 165); height: auto; max-height: none; min-height: auto; width: 1px; max-width: 1px; min-width: 1px; border-top-left-radius: 1px; border-bottom-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 1px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(165, 165, 165); border-right-color: rgb(165, 165, 165); border-top-color: rgb(165, 165, 165); border-bottom-color: rgb(165, 165, 165); flex-grow: 1; flex-direction: column; margin-top: 20px; margin-bottom: 20px;" />
+            <ui:VisualElement name="HistoryContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: center; padding-left: 20px; padding-right: 0; padding-top: 20px;">
+                <ui:Label tabindex="-1" text="Historia rachunku" display-tooltip-when-elided="true" name="HistoryTitle" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 5px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; min-width: 100%; font-size: 26px; -unity-font: url(&apos;project://database/Assets/Inter-Light.ttf?fileID=12800000&amp;guid=7acccdea5d09cf749a99b11b07f54db8&amp;type=3#Inter-Light&apos;);" />
+                <ui:Instance template="Expense" name="Expense" style="width: 100%; margin-top: 10px;" />
+                <ui:Instance template="Expense" name="Expense" style="width: 100%; margin-top: 10px;" />
+                <ui:Instance template="Expense" name="Expense" style="width: 100%; margin-top: 10px;" />
+                <ui:Instance template="Expense" name="Expense" style="width: 100%; margin-top: 10px;" />
+                <ui:Instance template="Expense" name="Expense" style="width: 100%; margin-top: 10px;" />
+                <ui:Instance template="Expense" name="Expense" style="width: 100%; margin-top: 10px;" />
+                <ui:Instance template="Expense" name="Expense" style="width: 100%; margin-top: 10px;" />
+                <ui:Instance template="Expense" name="Expense" style="width: 100%; margin-top: 10px;" />
+                <ui:Instance template="Expense" name="Expense" style="width: 100%; margin-top: 10px;" />
+            </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

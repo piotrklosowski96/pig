@@ -1,0 +1,16 @@
+.menu-button {
+    -unity-font: url('project://database/Assets/Inter-Light.ttf?fileID=12800000&guid=7acccdea5d09cf749a99b11b07f54db8&type=3#Inter-Light');
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.menu-button:hover {
+    color: rgb(126, 21, 53);
+    transition-duration: 300ms;
+}

@@ -1,0 +1,47 @@
+.primary-button {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    height: 100%;
+    background-color: rgb(126, 21, 53);
+    -unity-font: url('project://database/Assets/Inter-SemiBold.ttf?fileID=12800000&guid=bc48819c31e21fb4284bceb2d9bb11fb&type=3#Inter-SemiBold');
+    font-size: 14px;
+    color: rgb(255, 250, 244);
+    -unity-text-align: middle-center;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-left-color: rgb(126, 21, 53);
+    border-right-color: rgb(126, 21, 53);
+    border-top-color: rgb(126, 21, 53);
+    border-bottom-color: rgb(126, 21, 53);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+.primary-button:hover {
+    color: rgb(126, 21, 53);
+    background-color: rgb(255, 211, 51);
+    transition-duration: 300ms;
+    border-left-color: rgb(255, 211, 51);
+    border-right-color: rgb(255, 211, 51);
+    border-top-color: rgb(255, 211, 51);
+    border-bottom-color: rgb(255, 211, 51);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}

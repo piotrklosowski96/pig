@@ -31,13 +31,13 @@
                     "UxmlPath": "Assets/UI Toolkit/Dashboard.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
-                    "CanvasWidth": 1440,
+                    "CanvasWidth": 1630,
                     "CanvasHeight": 1024,
                     "MatchGameView": false,
                     "ZoomScale": 1.0,
                     "PanOffset": {
-                        "x": 21.0,
-                        "y": 74.0
+                        "x": 35.0,
+                        "y": 76.0
                     },
                     "ColorModeBackgroundOpacity": 1.0,
                     "ImageModeCanvasBackgroundOpacity": 1.0,

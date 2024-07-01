@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="MenuContainer" style="flex-grow: 1; background-color: rgb(251, 250, 248); top: 70px; height: 100px; max-height: 100px; min-height: 100px;">
+        <ui:Label tabindex="-1" text="SOME CONTENT" display-tooltip-when-elided="true" />
+    </ui:VisualElement>
+</ui:UXML>
